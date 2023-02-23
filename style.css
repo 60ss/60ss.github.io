@@ -1,0 +1,188 @@
+body {
+	/* background: #000; */
+	text-align: center;
+}
+h1 {
+	margin: 20px auto;
+	font-family: "angsanaUPC";
+	font-size: 5em;
+	transition: color 0.1s linear;
+	animation-name: rainbow;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: forwards;
+	color: red;
+}
+@keyframes rainbow {
+	0% {
+		color: #ff3b38;
+	}
+	2% {
+		color: #ff4059;
+	}
+	4% {
+		color: #fe4980;
+	}
+	6% {
+		color: #fe4d9b;
+	}
+	8% {
+		color: #fe53b3;
+	}
+	10% {
+		color: #fd59cc;
+	}
+	12% {
+		color: #fc61eb;
+	}
+	14% {
+		color: #fa65fd;
+	}
+	16% {
+		color: #e569ff;
+	}
+	18% {
+		color: #ca6aff;
+	}
+	20% {
+		color: #b06cff;
+	}
+	22% {
+		color: #9d6dff;
+	}
+	24% {
+		color: #7e6ffe;
+	}
+	26% {
+		color: #5375fd;
+	}
+	28% {
+		color: #3876ff;
+	}
+	30% {
+		color: #307ffe;
+	}
+	32% {
+		color: #2d8dfe;
+	}
+	34% {
+		color: #279bfe;
+	}
+	36% {
+		color: #25a9fe;
+	}
+	38% {
+		color: #22b1ff;
+	}
+	40% {
+		color: #1fbcff;
+	}
+	42% {
+		color: #14c9fe;
+	}
+	44% {
+		color: #05d9fe;
+	}
+	46% {
+		color: #01e2fe;
+	}
+	48% {
+		color: #18e3f4;
+	}
+	50% {
+		color: #2ee1dd;
+	}
+	52% {
+		color: #49dcc2;
+	}
+	54% {
+		color: #56d9af;
+	}
+	56% {
+		color: #5cd59f;
+	}
+	58% {
+		color: #6ed289;
+	}
+	60% {
+		color: #7cd06e;
+	}
+	62% {
+		color: #87cc4f;
+	}
+	64% {
+		color: #8dca3e;
+	}
+	66% {
+		color: #9ac93d;
+	}
+	68% {
+		color: #abc53e;
+	}
+	70% {
+		color: #b9c33e;
+	}
+	72% {
+		color: #c4c440;
+	}
+	74% {
+		color: #ccc23f;
+	}
+	76% {
+		color: #d7c242;
+	}
+	78% {
+		color: #e8bf41;
+	}
+	80% {
+		color: #f5bd42;
+	}
+	82% {
+		color: #ffbd42;
+	}
+	84% {
+		color: #ffad3d;
+	}
+	86% {
+		color: #ff983f;
+	}
+	88% {
+		color: #ff853a;
+	}
+	90% {
+		color: #ff7a39;
+	}
+	92% {
+		color: #ff6936;
+	}
+	94% {
+		color: #ff5436;
+	}
+	96% {
+		color: #ff3f32;
+	}
+	98% {
+		color: #ff3430;
+	}
+	100% {
+		color: red;
+	}
+}
+h2,
+h3,
+h4 {
+	margin: 0 0 10px 0;
+	font-size: 1em;
+}
+a {
+	display: block;
+	text-decoration: none;
+}
+h2,
+h3 {
+	color: #00439c;
+}
+h4 {
+	color: #151515;
+}
